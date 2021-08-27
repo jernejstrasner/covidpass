@@ -1,0 +1,24 @@
+{
+	"formatVersion": 1,
+	"passTypeIdentifier": "covid.pass.strsnr.com",
+	"serialNumber": "nmyuxofgna",
+	"teamIdentifier": "F53WB8AE67",
+	"relevantDate": "2011-12-08T13:00-08:00",
+	"barcodes": [
+		{
+			"message": "123456789",
+			"format": "PKBarcodeFormatQR",
+			"messageEncoding": "iso-8859-1"
+		}
+	],
+	"barcode": {
+		"message": "123456789",
+		"format": "PKBarcodeFormatQR",
+		"messageEncoding": "iso-8859-1"
+	},
+	"organizationName": "Apple Inc.",
+	"description": "A Booking pass",
+	"foregroundColor": "rgb(255, 255, 255)",
+	"backgroundColor": "rgb(253, 123, 35)",
+	"boardingPass": {}
+}
