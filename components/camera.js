@@ -16,7 +16,7 @@ export default function Camera(props) {
     }
 
     return (
-        <div class="mt-5 max-w-md">
+        <div className="mt-5 max-w-md">
             <QrReader
                 delay={0}
                 onError={setCameraError}
