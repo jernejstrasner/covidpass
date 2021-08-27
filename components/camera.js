@@ -8,9 +8,9 @@ export default function Camera(props) {
 
     if (cameraError) {
         return (
-            <div class="p-5 rounded-md m-3 border-gray-400 bg-red-300">
-                <p class="font-bold text-red-800">Camera error</p>
-                <p class="font-medium">Are you using a device with a working camera?</p>
+            <div className="p-5 rounded-md m-3 border-gray-400 bg-red-300">
+                <p className="font-bold text-red-800">Camera error</p>
+                <p className="font-medium">Are you using a device with a working camera?</p>
             </div>
         )
     }
