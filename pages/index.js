@@ -5,6 +5,7 @@ const QrReader = dynamic(() => import('react-qr-reader'), { ssr: false });
 
 export default function Home() {
   async function handleScan(scan) {
+    console.log(scan)
     if (scan) {
       console.log(scan)
     }
